@@ -1,0 +1,42 @@
+<html>
+
+<head>
+	<title>JS Objects Homework - Games Application</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="../../css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+</head>
+
+<body>
+	<div id="games"></div>
+
+	<div id="template">
+		<h3 class="game-header">
+			<!-- <span class="game-id"></span>  -->
+			<span class="game-title"></span>
+		</h3>
+		<img class="game-image" alt="game-image" height="70%" width="60%">
+		<h4 class="description">Description</h4>
+		<p class="game-description"></p>
+		<div>
+			<button class="game-edit">Edit</button>
+			<button class="game-delete">Delete</button>
+			<button class="game-details">More Details</button>
+		</div>
+	</div>
+	
+	<div class="new-game">
+		<button class="game-addNewGame">Add New Game</button>
+	</div>
+
+	<div id="regenerate-games">
+		<button class="game-regenerateGames">Regenerate Games</button>
+	</div>
+
+ 	<script src="../models/Game.js"></script>   
+	<script src="../models/Games.js"></script>
+	<script src="../views/games.js"></script>
+</body>
+
+</html>

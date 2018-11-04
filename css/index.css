@@ -1,0 +1,42 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+}
+
+/*the margins for the body*/
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  /*background-color: red;*/
+}
+
+div button:hover {
+  color: darkgray;
+}
+
+div > button {
+  padding: 1%;
+}
+
+a {
+  padding: 1%;
+}
+
+.game-image {
+  padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-game {
+  padding-top: 10%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.regenerate-games {
+  padding-top: 3%;
+}
